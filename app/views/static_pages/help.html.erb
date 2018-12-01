@@ -1,0 +1,6 @@
+<% provide :title, t(".title") %>
+<h1><%= t(".title") %></h1>
+<p>
+  <%= t(".text_html", linkhelp: link_to(t(".text_help"),
+    t(".link_help")),linkbook: link_to(t(".text_book"), t(".link_book"))) %>
+</p>

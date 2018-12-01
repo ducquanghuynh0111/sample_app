@@ -1,33 +1,32 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  layout:
+      basetitle: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    about:
+      title: "About"
+      link: "http://www.railstutorial.org/"
+      text_link: "Ruby on Rails Tutorial"
+      link_railsBook: "http://www.railstutorial.org/book"
+      text_book: "book"
+      link_railsScreencasts: "http://screencasts.railstutorial.org/"
+      text_screen: "screencast series"
+      text_ruby: "Ruby on Rails"
+      text_html: "The %{link_hd} is a %{link_book} and %{link_screen} to teach web development."
+    contact:
+      title: "Contact"
+      link_contact: "http://www.railstutorial.org/contact"
+      text_contact: "contact page"
+      text_html: "Contact the Ruby on Rails Tutorial about the sample app at the %{link_ct}."
+    help:
+      title: "Help"
+      link_help: "http://www.railstutorial.org/help"
+      text_help: "Rails Tutorial help section"
+      link_book: "http://www.railstutorial.org/book"
+      text_book : "Ruby on Rails Tutorial"
+      text_book_b: "book"
+      text_html: "Get help on the Ruby on Rails Tutorial at the %{linkhelp}. To get help on this sample app, see the %{linkbook}."
+    home:
+      title: "Home"
+      link_railsTutorial: "http://www.railstutorial.org/"
+      text_tutorial: "Ruby on Rails Tutorial"
+      text_html: "This is the home page for the %{linkTutorial} sample application."
