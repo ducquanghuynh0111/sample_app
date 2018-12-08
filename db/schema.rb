@@ -24,5 +24,4 @@ ActiveRecord::Schema.define(version: 2018_12_11_035631) do
     t.boolean "activated", default: false
     t.datetime "activated_at"
   end
-
 end
