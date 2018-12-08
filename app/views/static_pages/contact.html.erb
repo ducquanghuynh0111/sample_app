@@ -1,5 +1,6 @@
 <% provide :title, t(".title") %>
-<h1><%= t(".title") %></h1>
+<h1><%= t ".title" %></h1>
 <p>
-  <%= t(".text_html", link_ct: link_to(t(".text_contact"), t(".link_contact"))) %>
+  <%= t ".announce_contact_html", hreference: link_to(t(".link_detail"),
+    t(".link")) %>
 </p>
