@@ -1,6 +1,10 @@
+<div class="center jumbotron">
 <% provide :title, t(".title") %>
-<h1><%= t ".title" %></h1>
-<p>
-  <%= t(".announce_home_html",
-    hreference: link_to(t(".link_detail"), t(".link"))) %>
-</p>
+
+  <h1><%= t ".h1" %></h1>
+
+  <h2><%= t(".announce_home_html",
+    hreference: link_to(t(".link_detail"), t(".link"))) %></h2>
+
+  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
