@@ -1,7 +1,5 @@
 en:
   layout:
-    application:
-      apptitle: "Ruby on Rails Tutorial Sample App"
     header:
       sample_app: "Sample App"
       home: "Home"
@@ -27,7 +25,7 @@ en:
       announce_foo_html: "The %{tutor} by %{author}"
     basetitle: "Ruby on Rails Tutorial Sample App"
   shared:
-    _error_messages:
+    error_messages:
       error: "The form contains"
   static_pages:
     home:
@@ -64,7 +62,7 @@ en:
         about the sample app at the %{hreference}."
   sessions:
     new:
-      login: "Log In"
+      log_in: "Log In"
       password: "Password"
       signup: "Sign up now!"
       new_user: "New user?"
@@ -72,8 +70,7 @@ en:
       create: "Create my account"
       error_messages: "Invalid email/password combination"
       checkbox: "checkbox inline"
-    login:
-      signup: "Sign up now!"
+      please: "Please log in."
     create:
       success_message: "You've been logged in successfully"
       error_messages: "Invalid email/password combination"
@@ -87,10 +84,8 @@ en:
       new: "new"
       sign_up_success: "Welcome to the Sample App!"
     new:
+      create: "Create my account"
       title: "Sign Up"
-      create: "create new account"
-      announce_new_html: "This will be a signup page for new users."
-      signup: "Sign up now!"
       announce_new_html: "This will be a signup page for new users."
     load_user:
       error_messages: "This user could not be found"
@@ -101,3 +96,19 @@ en:
       create_accout: "Create my account"
       new_user: "New user?"
       remember_me: "Remember me on this computer"
+    edit:
+      title: "Edit user"
+      edit: "http://gravatar.com/emails"
+      save: "Save change"
+      change: "change"
+    index:
+      title: "All users"
+      please: "Please log in."
+    destroy:
+      delete: "User deleted"
+    update:
+      update: "Profile updated"
+      edit: "edit"
+    logged_in_user:
+      Please: "Please log in."
+
