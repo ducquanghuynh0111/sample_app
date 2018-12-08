@@ -89,7 +89,7 @@ en:
       sign_up_success: "Welcome to the Sample App!"
       checkmail: "Please check your email to activate your account."
     new:
-      create: "Create my account"
+      create_accout: "Create my account"
       title: "Sign Up"
       announce_new_html: "This will be a signup page for new users."
     load_user:
@@ -142,4 +142,3 @@ en:
         email: "Email"
         password: "Password"
         account: "Account activated!"
-
