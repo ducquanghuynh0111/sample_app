@@ -1,11 +1,17 @@
 en:
-
   layout:
+    application:
+      apptitle: "Ruby on Rails Tutorial Sample App"
     header:
       sample_app: "Sample App"
       home: "Home"
       help: "Help"
       logo: "logo"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
       login: "Log in"
     footer:
       the: "The"
@@ -18,13 +24,18 @@ en:
       contact: "Contact"
       link_news: "http://news.railstutorial.org"
       news: "News"
-      basetitle: "Ruby on Rails Tutorial Sample App"
+      announce_foo_html: "The %{tutor} by %{author}"
+    basetitle: "Ruby on Rails Tutorial Sample App"
+  shared:
+    _error_messages:
+      error: "The form contains"
   static_pages:
     home:
       h1: "Welcom to the Sample App"
       title: "Home"
       link_detail: "Ruby on Rails Tutorial"
       link: "http://www.railstutorial.org/"
+      logo: "Rails logo"
       announce_home_html: "This is the home page for the %{hreference} sample
         application."
     help:
@@ -48,16 +59,34 @@ en:
     contact:
       title: "Contact"
       link_contact: "http://www.railstutorial.org/contact"
-      link__detail: "contact page"
+      link_detail: "contact page"
       announce_contact_html: "Contact the Ruby on Rails Tutorial
         about the sample app at the %{hreference}."
+  sessions:
+    new:
+      login: "Log In"
+      password: "Password"
+      signup: "Sign up now!"
+      new_user: "New user?"
+      remember_me: "Remember me on this computer"
+      create: "Create my account"
+      error_messages: "Invalid email/password combination"
+      checkbox: "checkbox inline"
+    login:
+      signup: "Sign up now!"
+    create:
+      success_message: "You've been logged in successfully"
+      error_messages: "Invalid email/password combination"
+    destroy:
+      logout_messages: "You've been logged out"
   users:
     create:
       sign_up_success: "Welcome to the Sample App!"
     new:
       title: "Sign Up"
-      sign_up: "Sign up now!"
       create: "create new account"
+      announce_new_html: "This will be a signup page for new users."
+      signup: "Sign up now!"
       announce_new_html: "This will be a signup page for new users."
     load_user:
       error_messages: "This user could not be found"

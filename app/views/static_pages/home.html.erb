@@ -1,6 +1,4 @@
 <div class="center jumbotron">
-<% provide :title, t(".title") %>
-
   <h1><%= t ".h1" %></h1>
 
   <h2><%= t(".announce_home_html",
@@ -8,3 +6,5 @@
 
   <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
+
+<%= link_to image_tag("rails.png", alt: t(".logo")), "http://rubyonrails.org/" %>
