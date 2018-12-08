@@ -80,7 +80,11 @@ en:
     destroy:
       logout_messages: "You've been logged out"
   users:
+    user:
+      confirm: "You sure?"
+      delete: "delete"
     create:
+      new: "new"
       sign_up_success: "Welcome to the Sample App!"
     new:
       title: "Sign Up"
@@ -90,3 +94,10 @@ en:
       announce_new_html: "This will be a signup page for new users."
     load_user:
       error_messages: "This user could not be found"
+      update: "Update your profile"
+      sign_up: "Sign up now!"
+      please: "Please log in."
+      announce_new_html: "This will be a signup page for new users."
+      create_accout: "Create my account"
+      new_user: "New user?"
+      remember_me: "Remember me on this computer"
