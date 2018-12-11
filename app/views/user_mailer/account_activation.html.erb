@@ -1,9 +1,8 @@
-<h1><%= t(".sample_app") %></h1>
+<h1><%= t ".layouts.header.sample_app" %></h1>
 
-<%= t(".hi", href: @user.name) %>
+<p><%= t ".hi" %> <%= @user.name %>,</p>
 
-<p>
-  <%= t(".mail") %>
-</p>
+<p><%= t ".mail" %></p>
 
-<%= link_to t(".activate"), edit_account_activation_url(@user.activation_token, email: @user.email) %>
+<%= link_to t(".activate"), edit_account_activation_url(@user.activation_token,
+  email: @user.email) %>
