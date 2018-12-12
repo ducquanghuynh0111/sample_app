@@ -1,0 +1,16 @@
+<footer class="footer">
+  <small>
+    <%= t("layout.footer.announce_foo_html",
+      tutor: link_to(t("layout.footer.title_tutor"),
+      t("layout.footer.link_tutor")),
+      author: link_to(t("layout.footer.title_author"),
+      t("layout.footer.link_author"))) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".news"), t(".link_news") %></li>
+    </ul>
+  </nav>
+</footer>

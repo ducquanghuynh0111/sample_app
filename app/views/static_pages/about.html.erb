@@ -1,7 +1,7 @@
 <% provide :title, t(".title") %>
-<h1><%= t(".title") %></h1>
+<h1><%= t ".title" %></h1>
 <p>
-  <%= t(".text_html", link_hd: link_to(t(".text_link"), t(".link")),
-    link_book: link_to(t(".text_book"), t(".link_railsBook")),
-    link_screen: link_to(t(".text_screen"), t(".link_railsScreencasts"))) %>
+  <%= t ".announce_about_html", hreftutorial:link_to(t(".title_about_detail"),
+    t(".link_about")),book: link_to(t(".link_book_detail"), t(".link_book")),
+    screencast: link_to(t(".link_screencast_detail"),t(".link_screencast")) %>
 </p>
