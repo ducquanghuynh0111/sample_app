@@ -1,25 +1,8 @@
 en:
-  header:
-    sample_app: "Sample App"
-    home: "Home"
-    help: "Help"
-  footer:
-    the: "The"
-    title_tutor: "Ruby on Rails Tutorial"
-    link_tutor: "http://www.railstutorial.org/"
-    by: "by"
-    link_author: "http://www.michaelhartl.com/"
-    title_author: "Michael Hartl"
-    about: "About"
-    contact: "Contact"
-    link_news: "http://news.railstutorial.org"
-    news: "News"
-    announce_foo_html: "The %{tutor} by %{author}"
-  layout:
+layout:
     basetitle: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
-      h1: "Welcom to the Sample App"
       title: "Home"
       link_detail: "Ruby on Rails Tutorial"
       link: "http://www.railstutorial.org/"
@@ -35,21 +18,15 @@ en:
         at the %{help}.To get help on this sample app, see the %{book}"
     about:
       title: "About"
-      title_about_detail: "Ruby on Rails Tutorial"
-      link_about: "http://www.railstutorial.org/"
+      link: "http://rubyonrails.org/"
       link_screencast: "http://screencasts.railstutorial.org/"
       link_screencast_detail: "screencast series"
-      link_book : "http://www.railstutorial.org/book"
-      link_book_detail: "Ruby on Rails Tutorial"
       announce_about_html: "The %{hreftutorial} is a %{book} and
-        %{screencast} to teach web development."
+        %{screencast} to teach web development with
+        %{hreference}. This is the sample application for the tutorial."
     contact:
       title: "Contact"
-      link_contact: "http://www.railstutorial.org/contact"
-      link__detail: "contact page"
+      link: "http://www.railstutorial.org/contact"
+      link_detail: "contact page"
       announce_contact_html: "Contact the Ruby on Rails Tutorial
         about the sample app at the %{hreference}."
-  users:
-    new:
-      sign_up: "Sign up now!"
-      announce_new_html: "This will be a signup page for new users."
