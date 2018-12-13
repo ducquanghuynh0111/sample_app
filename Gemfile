@@ -5,6 +5,7 @@ ruby "2.5.1"
 
 gem "coffee-rails", "~> 4.2"
 gem "jbuilder", "~> 2.5"
+gem "jquery-rails"
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.1", ">= 5.2.1.1"
 gem "sass-rails", "~> 5.0"
