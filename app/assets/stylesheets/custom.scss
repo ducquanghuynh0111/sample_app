@@ -3,11 +3,7 @@
 
 $gray-light: #777;
 $gray-medium-light: #eaeaea;
-
- /* mixins, variables, etc. */
-
-
- /* universal */
+$grey-light: #bbb;
 
  body {
    padding-top: 60px;
@@ -29,7 +25,6 @@ $gray-medium-light: #eaeaea;
  }
 
  /* typography */
-
  h1, h2, h3, h4, h5, h6 {
    line-height: 1;
  }
@@ -57,7 +52,6 @@ $gray-medium-light: #eaeaea;
 
 
  /* header */
-
  #logo {
    float: left;
    margin-right: 10px;
@@ -74,7 +68,6 @@ $gray-medium-light: #eaeaea;
  }
 
  /* footer */
-
  footer {
    margin-top: 45px;
    padding-top: 5px;
@@ -100,13 +93,12 @@ $gray-medium-light: #eaeaea;
  }
 
  @mixin box_sizing {
-   -moz-box-sizing:    border-box;
+   -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
-   box-sizing:         border-box;
+   box-sizing: border-box;
  }
 
  /* miscellaneous */
-
  .debug_dump {
    clear: both;
    float: left;
@@ -116,9 +108,8 @@ $gray-medium-light: #eaeaea;
  }
 
  /* forms */
-
  input, textarea, select, .uneditable-input {
-   border: 1px solid #bbb;
+   border: 1px solid $grey-light;
    width: 100%;
    margin-bottom: 15px;
    @include box_sizing;
@@ -184,7 +175,9 @@ aside {
   }
 }
 
-.gravatar {
+/* miscellaneous */
+.debug_dump {
+  clear: both;
   float: left;
   margin-right: 10px;
 }
