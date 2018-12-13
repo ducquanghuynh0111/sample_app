@@ -28,7 +28,14 @@ en:
     basetitle: "Ruby on Rails Tutorial Sample App"
   shared:
     error_messages:
-      error: "The form contains"
+      error: "Error"
+      form: "The form constant"
+    user_info:
+      view: "View my profile"
+      micropost: "micropost"
+    microppost_form:
+      compose: "compose new micropost..."
+      post: "Post"
   static_pages:
     home:
       h1: "Welcom to the Sample App"
@@ -36,6 +43,7 @@ en:
       link_detail: "Ruby on Rails Tutorial"
       link: "http://www.railstutorial.org/"
       logo: "Rails logo"
+      feed: "Micropost Feed"
       announce_home_html: "This is the home page for the %{hreference} sample
         application."
     help:
@@ -79,6 +87,8 @@ en:
       error_messages: "Invalid email/password combination"
     destroy:
       logout_messages: "You've been logged out"
+    helper:
+      please: "Please log in."
   users:
     user:
       confirm: "You sure?"
@@ -103,7 +113,7 @@ en:
       remember_me: "Remember me on this computer"
       checkmail: "Please check your email to activate your account."
       submit: "Submit"
-    load_user:
+    show:
       error_messages: "This user could not be found"
     edit:
       title: "Edit user"
@@ -151,6 +161,13 @@ en:
         email: "Email"
         password: "Password"
         account: "Account activated!"
+  micropposts:
+    micropost_created: "Micropost_created!"
+    sure: "you sure?"
+    delete: "delete"
+    message: "Micropost deleted"
+    less: "should be less than 5MB"
+    maximum: "maximum file size is 5MB. Please choose a smaller file."
   password_resets:
     create:
       email_error: "Email address not found"
@@ -164,3 +181,5 @@ en:
     edit:
       title: "Reset password"
       update: "Update password"
+  model:
+    user_id: "user_id = ?"
