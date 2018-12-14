@@ -43,6 +43,18 @@ class UsersController < ApplicationController
 
   def edit; end
 
+  def following
+    @title = t".following"
+    @users = @user.following.paginate(page: params[:page])
+    render :show_follow
+  end
+
+  def followers
+    @title = t".followers"
+    @users = @user.followers.paginate(page: params[:page])
+    render :show_follow
+  end
+
   private
 
   def logged_in_user

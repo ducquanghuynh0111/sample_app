@@ -36,6 +36,9 @@ en:
     microppost_form:
       compose: "compose new micropost..."
       post: "Post"
+    stats:
+      following: "following"
+      followers: "followers"
   static_pages:
     home:
       h1: "Welcom to the Sample App"
@@ -131,6 +134,11 @@ en:
       edit: "edit"
     logged_in_user:
       Please: "Please log in."
+    follow: "Follow"
+    unfollow: "Unfollow"
+    show_follow:
+      profile: "view my profile"
+      will_paginate: "will_paginate"
   account_activations:
     edit:
       account: "Account activated!"
@@ -182,4 +190,11 @@ en:
       title: "Reset password"
       update: "Update password"
   model:
-    user_id: "user_id = ?"
+    user:
+      user_id: "user_id = ?"
+      relationship: "Relationship"
+      follower: "Follower_id"
+      followed: "Followed_id"
+    relationship:
+      user: "User"
+
