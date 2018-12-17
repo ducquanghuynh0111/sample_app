@@ -5,3 +5,5 @@ user:
   size: 80
   size_index: 50
   per_pag: 20
+sesions:
+  remember: 1

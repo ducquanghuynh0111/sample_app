@@ -1,4 +1,6 @@
 en:
+  subject: "Account activation"
+  hi: "Hi"
   layout:
     header:
       sample_app: "Sample App"
@@ -72,6 +74,7 @@ en:
       checkbox: "checkbox inline"
       please: "Please log in."
     create:
+      not_activated: "Account not activated. Please check your email to activate your account."
       success_message: "You've been logged in successfully"
       error_messages: "Invalid email/password combination"
     destroy:
@@ -80,9 +83,11 @@ en:
     user:
       confirm: "You sure?"
       delete: "delete"
+      checkmail: "Please check your email to activate your account."
     create:
       new: "new"
       sign_up_success: "Welcome to the Sample App!"
+      checkmail: "Please check your email to activate your account."
     new:
       create: "Create my account"
       title: "Sign Up"
@@ -96,11 +101,15 @@ en:
       create_accout: "Create my account"
       new_user: "New user?"
       remember_me: "Remember me on this computer"
+      checkmail: "Please check your email to activate your account."
+    load_user:
+      error_messages: "This user could not be found"
     edit:
       title: "Edit user"
       edit: "http://gravatar.com/emails"
       save: "Save change"
       change: "change"
+      please: "Please log in."
     index:
       title: "All users"
       please: "Please log in."
@@ -111,4 +120,26 @@ en:
       edit: "edit"
     logged_in_user:
       Please: "Please log in."
+  account_activations:
+    edit:
+      account: "Account activated!"
+      invalid: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      hi: "Hi"
+      mail: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      subject: "Account activation"
+      checkmail: "Please check your email to activate your account."
+  helpers:
+    label:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirmation"
+      session:
+        email: "Email"
+        password: "Password"
+        account: "Account activated!"
 
