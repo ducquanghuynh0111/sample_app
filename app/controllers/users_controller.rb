@@ -58,8 +58,9 @@ class UsersController < ApplicationController
 
   def load_user
     @user = User.find_by id: params[:id]
+
     return if @user
-    flash[:danger] = t ".load_user.error_messages"
+    flash[:danger] = t ".error_messages"
     redirect_to root_path
   end
 
